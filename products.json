@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "name": "Maroon Muse Dress",
+    "category": "Dress",
+    "price": 349000,
+    "rating": 4.9,
+    "badge": "BEST SELLER",
+    "image": "https://unsplash.com/photos/qhzrXwsV76A/download?force=true&w=900",
+    "description": "Statement look bernuansa maroon dengan kesan elegan dan modern."
+  },
+  {
+    "id": 2,
+    "name": "Navy Runway Edit",
+    "category": "Modest",
+    "price": 389000,
+    "rating": 4.8,
+    "badge": "NEW",
+    "image": "https://unsplash.com/photos/CQDkSdPOzYY/download?force=true&w=900",
+    "description": "Inspirasi modest fashion bernuansa navy untuk tampilan yang percaya diri."
+  },
+  {
+    "id": 3,
+    "name": "Boutique Hijab Edit",
+    "category": "Modest",
+    "price": 329000,
+    "rating": 4.9,
+    "badge": "TRENDING",
+    "image": "https://unsplash.com/photos/1seKqBrY0_U/download?force=true&w=900",
+    "description": "Koleksi modest yang mudah dipadukan untuk aktivitas sehari-hari."
+  },
+  {
+    "id": 4,
+    "name": "Blue Paisley Pajama",
+    "category": "Sleepwear",
+    "price": 229000,
+    "rating": 4.7,
+    "badge": "COZY PICK",
+    "image": "https://unsplash.com/photos/O_14r4IYje8/download?force=true&w=900",
+    "description": "Sleepwear nyaman dengan nuansa biru dan motif playful."
+  },
+  {
+    "id": 5,
+    "name": "Boutique Rack Edit",
+    "category": "Outer",
+    "price": 299000,
+    "rating": 4.8,
+    "badge": "EDITOR'S PICK",
+    "image": "https://unsplash.com/photos/pt3EBzQcxP0/download?force=true&w=900",
+    "description": "Pilihan outer dan wardrobe essential yang clean dan versatile."
+  },
+  {
+    "id": 6,
+    "name": "Store Signature Look",
+    "category": "Set",
+    "price": 419000,
+    "rating": 4.9,
+    "badge": "LIMITED",
+    "image": "https://unsplash.com/photos/y5vzB7nisbk/download?force=true&w=900",
+    "description": "Signature coordinated set untuk gaya minimalis yang polished."
+  },
+  {
+    "id": 7,
+    "name": "White Boutique Collection",
+    "category": "Set",
+    "price": 359000,
+    "rating": 4.8,
+    "badge": "FRESH DROP",
+    "image": "https://unsplash.com/photos/ZfjXu2U4yMQ/download?force=true&w=900",
+    "description": "Koleksi cerah dan modern untuk capsule wardrobe."
+  },
+  {
+    "id": 8,
+    "name": "Wardrobe Inspiration",
+    "category": "Lookbook",
+    "price": 0,
+    "rating": 4.9,
+    "badge": "STYLE GUIDE",
+    "image": "https://unsplash.com/photos/pt3EBzQcxP0/download?force=true&w=1200",
+    "description": "Inspirasi styling dan wardrobe untuk menemukan personal style kamu."
+  }
+]

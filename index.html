@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="id"><head>
+<meta charset="UTF-8"><meta name="viewport" content="width=device-width,initial-scale=1.0">
+<title>BFÉ — Fashion Store</title>
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css"></head>
+<body>
+<div class="announcement">✦ FREE SHIPPING untuk pembelian mulai Rp500.000</div>
+<header><a class="logo" href="#home"><span>BF</span>É</a>
+<nav id="nav"><a href="#home">Home</a><a href="#shop">Shop</a><a href="#lookbook">Lookbook</a><a href="#about">About</a></nav>
+<div class="actions"><button id="searchBtn">⌕</button><button id="langBtn">ID</button><button id="wishBtn">♡ <b id="wishCount">0</b></button><button id="cartBtn">🛍 <b id="cartCount">0</b></button><button id="menuBtn">☰</button></div></header>
+<main>
+<section class="hero" id="home"><div class="heroText"><p class="eyebrow">THE NEW BFÉ EDIT</p><h1>Wear your<br><em>own story.</em></h1><p>Modern modest fashion yang elegan, nyaman, dan dibuat untuk menemani setiap versi terbaikmu.</p><div class="heroBtns"><a class="primary" href="#shop">SHOP NOW →</a><a class="secondary" href="#lookbook">LOOKBOOK</a></div><div class="stats"><span><b>8+</b> Curated looks</span><span><b>4.9/5</b> Community love</span></div></div>
+<div class="heroVisual"><img src="https://unsplash.com/photos/qhzrXwsV76A/download?force=true&w=1200" alt="BFÉ modest fashion"><div class="tag">✦ BFÉ SIGNATURE<br><small>MAROON × NAVY</small></div></div></section>
+<section class="features"><span>✦ MODERN MODEST</span><span>✦ CURATED COLLECTION</span><span>✦ LIGHTWEIGHT EXPERIENCE</span><span>✦ YOUR STYLE, YOUR WAY</span></section>
+<section class="shop section" id="shop"><div class="titleRow"><div><p class="eyebrow">SHOP THE EDIT</p><h2>Find your next favorite.</h2></div><button class="textBtn" id="allBtn">VIEW ALL →</button></div>
+<div class="toolbar"><div class="chips" id="chips"><button class="chip active" data-category="All">All</button><button class="chip" data-category="Dress">Dress</button><button class="chip" data-category="Set">Set</button><button class="chip" data-category="Modest">Modest</button><button class="chip" data-category="Outer">Outer</button><button class="chip" data-category="Sleepwear">Sleepwear</button></div>
+<select id="sort"><option value="featured">Sort: Featured</option><option value="low">Price: Low to High</option><option value="high">Price: High to Low</option><option value="rating">Top Rated</option></select></div>
+<div class="grid" id="grid"></div></section>
+<section class="lookbook" id="lookbook"><div><p class="eyebrow">BFÉ LOOKBOOK</p><h2>Soft tones.<br><em>Strong presence.</em></h2><p>Eksplorasi warna, siluet, dan outfit yang bisa kamu mix & match sesuai mood.</p><button class="primary" id="inspireBtn">GET INSPIRED →</button></div><div class="masonry"><img src="https://unsplash.com/photos/1seKqBrY0_U/download?force=true&w=700" alt="Hijab boutique"><img src="https://unsplash.com/photos/pt3EBzQcxP0/download?force=true&w=700" alt="Clothing boutique"><img src="https://unsplash.com/photos/ZfjXu2U4yMQ/download?force=true&w=700" alt="Fashion store"></div></section>
+<section class="newsletter" id="about"><div><p class="eyebrow">BFÉ INSIDERS</p><h2>Get the good stuff first.</h2></div><form id="newsletter"><input required type="email" placeholder="your@email.com"><button class="primary">JOIN NOW</button></form></section>
+</main>
+<footer><a class="logo" href="#home"><span>BF</span>É</a><p>Fashion, your way. © 2026 BFÉ.</p><div><a href="#shop">Shop</a><a href="#lookbook">Lookbook</a></div></footer>
+<div id="overlay"></div>
+<aside class="drawer" id="cartDrawer"><div class="drawerHead"><h3>Your Bag</h3><button class="close">×</button></div><div id="cartItems" class="drawerBody"></div><div class="drawerFoot"><div class="total"><span>Total</span><b id="total">Rp0</b></div><button class="primary full" id="checkout">CHECKOUT →</button></div></aside>
+<aside class="drawer" id="wishDrawer"><div class="drawerHead"><h3>Wishlist</h3><button class="close">×</button></div><div id="wishItems" class="drawerBody"></div></aside>
+<div class="searchPage" id="searchPage"><button class="close searchClose">×</button><p class="eyebrow">SEARCH BFÉ</p><input id="searchInput" placeholder="Cari koleksi favoritmu..."><div id="results"></div></div>
+<div class="modal" id="modal"><div class="modalBox"><button class="close modalClose">×</button><div id="modalContent"></div></div></div>
+<div class="toast" id="toast"></div><button id="topBtn">↑</button>
+<script src="script.js"></script></body></html>
